@@ -26,7 +26,7 @@ export class Hello extends React.Component<HelloProps, HelloState> {
         this.handleRequestClose = this.handleRequestClose.bind(this);
         this.handleTouchTap = this.handleTouchTap.bind(this);
 
-        this.state = { open: false }
+        this.state = { open: false };
     }
 
     handleRequestClose() {
@@ -59,7 +59,7 @@ export class Hello extends React.Component<HelloProps, HelloState> {
                     onRequestClose={this.handleRequestClose}
                     >
                     1-2-3-4-5
-          </Dialog>
+                </Dialog>
                 <h1>Material-UI</h1>
                 <h2>example project</h2>
                 <RaisedButton
